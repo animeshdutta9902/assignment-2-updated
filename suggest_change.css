@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4b400;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.suggest-change-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.suggest-change-container h2 {
+    margin-top: 0;
+}
+
+.suggest-change-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.suggest-change-container input, 
+.suggest-change-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.suggest-change-container button {
+    background-color: #f4b400;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.suggest-change-container button:hover {
+    background-color: #e08c00;
+}
